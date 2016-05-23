@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "angular": "1.5.x",
-    "angular-animate": "^1.5.3",
-    "angular-mocks": "^1.5.3",
+    "angular-animate": "1.5.x",
+    "angular-mocks": "1.5.x",
     "es6-shim": "^0.35.0",
     "fs-extra": "^0.26.5",
     "jasmine-core": "^2.4.1",
