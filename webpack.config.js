@@ -10,5 +10,4 @@ module.exports = {
     root: __dirname + '/shims',
   },
   debug: true,
-  devtool: 'source-map'
 };

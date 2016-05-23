@@ -29,7 +29,7 @@
   },
   "scripts": {
     "clean": "rm -rf tmp && rm -rf dist",
-    "start": "node scripts/copy_files.js && webpack"
+    "start": "node scripts/copy_files.js && webpack && mv dist/angular-component-router.js tmp/angular-component-router.js && cat tmp/angular-component-router.js export-definition >dist/angular-component-router.js && rm tmp/angular-component-router.js"
   },
   "author": "Angular Core Team",
   "license": "MIT"
